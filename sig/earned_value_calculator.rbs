@@ -1,0 +1,9 @@
+module EarnedValueCalculator
+  VERSION: String
+	attr_accessor project_length: Integer
+	attr_accessor current_length: Integer
+	attr_accessor budget: Integer
+	attr_accessor rate: Float
+	attr_accessor actual_cost: Integer
+	def call: (start_date: Date, end_date: Date, current_date: Date, budget: Integer, rate: Integer, actual_cost: Integer) -> EarnedValueCalculator
+end
