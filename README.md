@@ -4,7 +4,7 @@
 [![Gem Version](https://badge.fury.io/rb/earned_value_calculator.svg)](https://badge.fury.io/rb/earned_value_calculator) 
 ![](https://ruby-gem-downloads-badge.herokuapp.com/earned_value_calculator) 
 [![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop-hq/rubocop) 
-[![CircleCI](https://circleci.com/bb/routeflags/earned_value_calculator.svg?style=svg)](https://circleci.com/bb/routeflags/earned_value_calculator)
+[![CircleCI](https://circleci.com/gh/routeflags/earned_value_calculator/tree/main.svg?style=svg)](https://circleci.com/gh/routeflags/earned_value_calculator/tree/main)
 
 Calculates the earned value of a project to indicate a diagnosis result.
 
