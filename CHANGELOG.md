@@ -15,3 +15,7 @@
 ## [0.1.3] - 2022-04-23
 
 - Downward ruby version
+
+## [0.1.4] - 2022-04-23
+
+- Fix calculates schedule variance 
