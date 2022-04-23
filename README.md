@@ -10,7 +10,7 @@ Calculates the earned value of a project to indicate a diagnosis result.
 
 ## What is Earned value management ?
 
-Earned value management (EVM),is a project management technique for measuring project performance and progress in an objective manner from [Earned value management - Wikipedia](https://en.wikipedia.org/wiki/Earned_value_management).
+Earned value management (EVM),is a project management technique for measuring project performance and progress in an objective manner by [Earned value management - Wikipedia](https://en.wikipedia.org/wiki/Earned_value_management).
 
 ## Installation
 
