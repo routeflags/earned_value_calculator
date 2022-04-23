@@ -10,4 +10,4 @@ jobs:
           command: |
             gem install bundler -v 2.3.4
             bundle install
-            bundle exec rake rspec
+            bundle exec rspec
