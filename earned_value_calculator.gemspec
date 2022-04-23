@@ -12,7 +12,6 @@ Gem::Specification.new do |spec|
   spec.description = "Calculate the earned value of a project"
   spec.homepage = "https://github.com/routeflags/earned_value_calculator"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 2.6.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/routeflags/earned_value_calculator"
