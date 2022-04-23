@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+require "date"
 
 RSpec.describe EarnedValueCalculator do
   it "has a version number" do
