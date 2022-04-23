@@ -10,13 +10,13 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Calculate the earned value of a project"
   spec.description = "Calculate the earned value of a project"
-  spec.homepage = "https://bitbucket.org/smapira/earned_value_calculator"
+  spec.homepage = "https://github.com/routeflags/earned_value_calculator"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://bitbucket.org/smapira/earned_value_calculator/commits/main"
-  spec.metadata["changelog_uri"] = "https://bitbucket.org/smapira/earned_value_calculator"
+  spec.metadata["source_code_uri"] = "https://github.com/routeflags/earned_value_calculator"
+  spec.metadata["changelog_uri"] = "https://github.com/routeflags/earned_value_calculator"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
