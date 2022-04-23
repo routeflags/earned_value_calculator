@@ -59,7 +59,7 @@ module EarnedValueCalculator
     def calculate_earned_values
       @earned_value = (@budget * (@rate.to_f / 100)).to_i
       @planned_value = (@budget * @current_length / @project_length.to_f).to_i
-      @schedule_variance = @planned_value - @earned_value
+      @schedule_variance =  @earned_value - @planned_value
       @actual_cost_variance = @actual_cost - @earned_value
       @cost_performance_index = @earned_value.to_f / @actual_cost
       @schedule_performance_index = @earned_value.to_f / @planned_value
