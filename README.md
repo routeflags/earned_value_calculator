@@ -127,3 +127,4 @@ Everyone interacting in the EarnedValueCalculator project's codebases, issue tra
 
 * [Earned value management - Wikipedia](https://en.wikipedia.org/wiki/Earned_value_management)
 * [Online Equation Editor - standalone](https://www.codecogs.com/latex/eqneditor.php)
+* [Ahmed Shabana (@ahmedmshabana) | Unsplash Photo Community](https://unsplash.com/photos/ADa9bb3tqR4)
