@@ -6,6 +6,8 @@
 [![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop-hq/rubocop) 
 [![CircleCI](https://circleci.com/gh/routeflags/earned_value_calculator/tree/main.svg?style=svg)](https://circleci.com/gh/routeflags/earned_value_calculator/tree/main)
 
+![evm](https://user-images.githubusercontent.com/25024587/168343238-894f5ab6-daba-4a22-a8a3-665ad5abf062.png)
+
 Calculates the earned value of a project to indicate a diagnosis result.
 
 ## What is Earned value management ?
