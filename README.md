@@ -1,4 +1,4 @@
-# EarnedValueCalculator
+# Earned Value Calculator
 
 ![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white) 
 [![Gem Version](https://badge.fury.io/rb/earned_value_calculator.svg)](https://badge.fury.io/rb/earned_value_calculator) 
