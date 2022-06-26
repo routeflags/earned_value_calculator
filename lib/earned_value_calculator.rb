@@ -33,7 +33,16 @@ module EarnedValueCalculator
                   :cost_performance_index,
                   # It is based on the formula:
                   #   SPI = EV ÷ PV
-                  :schedule_performance_index
+                  :schedule_performance_index,
+                  # It is based on the formula:
+                  #   EAC = AC + (BAC - EV) ÷ CPI = AC + ETC
+                  :estimate_at_completion,
+                  # It is based on the formula:
+                  #   ETC = (BAC - EV) ÷ CPI = EAC - AC
+                  :estimate_to_completion,
+                  # It is based on the formula:
+                  #   VAC = BAC - EAC
+                  :variance_at_completion
 
     # @param [Date] start_date The project start date.
     # @param [Date] end_date The project deadline.
@@ -63,6 +72,9 @@ module EarnedValueCalculator
       @actual_cost_variance = @earned_value - @actual_cost
       @cost_performance_index = @earned_value.to_f / @actual_cost
       @schedule_performance_index = @earned_value.to_f / @planned_value
+      @estimate_at_completion = @actual_cost + (@budget - @planned_value) / @cost_performance_index
+      @estimate_to_completion = @estimate_at_completion - @actual_cost
+      @variance_at_completion = @budget - @estimate_at_completion
     end
   end
 end
