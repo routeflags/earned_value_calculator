@@ -19,15 +19,30 @@ RSpec.describe EarnedValueCalculator do
     end
   end
 
-  describe "#calculate" do
-    [
-      { label: "has a valid calculate with earned_value",
-        input: [Date.today - 3, Date.today + 3, Date.today, 100, 10, 1],
-        outcome: 10 }
-    ].each do |test|
-      context test[:label] do
-        subject { EarnedValueCalculator.call(*test[:input]).earned_value }
-        it { is_expected.to be test[:outcome] }
+  describe "#calculates" do
+    { project_length: 5,
+      current_length: 2,
+      budget: 100,
+      rate: 10,
+      actual_cost: 1,
+      earned_value: 10,
+      schedule_variance: -30,
+      planned_value: 40,
+      actual_cost_variance: 9,
+      cost_performance_index: 10.0,
+      schedule_performance_index: 0.25,
+      estimate_at_completion: 7.0,
+      estimate_to_completion: 6.0,
+      variance_at_completion: 93.0 }.each do |symbol, integer|
+      [
+        { label: "has a valid value with #{symbol}",
+          input: [Date.today - 3, Date.today + 3, Date.today, 100, 10, 1],
+          outcome: integer }
+      ].each do |test|
+        context test[:label] do
+          subject { EarnedValueCalculator.call(*test[:input]).public_send(symbol) }
+          it { is_expected.to be test[:outcome] }
+        end
       end
     end
   end

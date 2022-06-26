@@ -85,6 +85,20 @@ It is based on the formula:
 
     SPI = EV ÷ PV
 
+#### estimate_at_completion (EAC)
+It is based on the formula:
+
+    EAC = AC + (BAC - EV) ÷ CPI = AC + ETC
+
+#### estimate_to_completion (ETC)
+It is based on the formula:
+
+    ETC = (BAC - EV) ÷ CPI = EAC - AC
+
+#### variance_at_completion (VAC)
+It is based on the formula:
+
+    VAC = BAC - EAC
 
 ## Development
 
