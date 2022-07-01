@@ -38,7 +38,7 @@ module EarnedValueCalculator
 
     def un_permit_format
       %i[start_date end_date current_date].map do |x|
-        errors.add(x, "Allow only DateTime format") unless public_send(x).is_a?(Date)
+        errors.add(x, "Allow only Date format") unless public_send(x).is_a?(Date)
       end
       %i[budget rate actual_cost].map do |x|
         errors.add(x, "Allow only Integer format") unless public_send(x).is_a?(Integer)
