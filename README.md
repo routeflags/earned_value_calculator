@@ -56,6 +56,9 @@ Calculates these metrics of a project:
 * actual_cost_variance
 * cost_performance_index
 * schedule_performance_index
+* estimate_at_completion
+* estimate_to_completion
+* variance_at_completion
 
 #### earned_value (EV)
 EV is calculated by multiplying %complete of each task (completed or in progress) by its planned value.
